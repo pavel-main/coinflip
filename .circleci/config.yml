@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.10
+    working_directory: /go/src/github.com/pavel-main/coinflip
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: make install
+      - run:
+          name: Download Packages
+          command: make ensure
+      - run:
+          name: Build
+          command: make build
