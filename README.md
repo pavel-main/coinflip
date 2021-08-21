@@ -8,7 +8,7 @@ Token sale smart contract interaction. Features:
 * Managing participants whitelist
 * Rewarding Bitcoin donations via [Blockchain.info Receive Payments API](https://blockchain.info/api/api_receive)
 
-![Coinflip workflow](media/workflow.png?raw=true "Coinflip workflow")
+![Coinflip workflow](workflow.png?raw=true "Coinflip workflow")
 
 ## Dependencies
 
